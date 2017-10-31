@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Natalia Stolyarova](https://up.htmlacademy.ru/htmlcss/19/user/358753).
-* Наставник: Екатерина Анплитова.
+* Наставник: [Екатерина Анплитова](https://htmlacademy.ru/profile/anplitova)
 
 ---
 
