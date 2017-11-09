@@ -11,18 +11,18 @@
             <img src="img/sedona-logo.png" width="138" height="70" alt="Логотип «Седоны»">
           </a>
           <ul class="site-navigation">
-            <li><a href="info.html">Информация</a></li>
-            <li><a href="photo-video.html">Фото и видео</a></li>
-            <li><a href="map.html">Карта штата</a></li>
-            <li><a href="hotels.html">Гостиницы</a></li>
+            <li><a href="#">Информация</a></li>
+            <li><a href="#">Фото и видео</a></li>
+            <li><a href="#">Карта штата</a></li>
+            <li>Гостиницы</li>
           </ul>
                    </nav>
       </header>
       <main class="container">
-      <section class="options">
-        <h2>Выбор</h2>
-<div class="options">
-<b>Инфраструктура:</b>
+      <form class="filter">
+    <div class="options">
+  <h2 vissually hidden>Выбор</h2>
+  <b>Инфраструктура:</b>
 <ul class="options">
 <li class="options">Бассейн</li>
 <li class="options">Парковка</li>
@@ -44,18 +44,20 @@
 <input type="range" min="0" max="3000">
 <input type="submit" value="Показать">
 </div>
-</section>
-<section>
-  <h2>Найдено:3</h2>
-<p>Сортировка:</p>
-<ul class="breadcrumbs">
+
+<block class="sorting">
+  <h2>Найдено: 3</h2>
+<ul class="sorting-list">
+<h2>Сортировка:</h2>
   <li><a href="#">По цене</a></li>
   <li><a href="#">По типу</a></li>
   <li><a href="#">По рейтингу</a></li>
 </ul>
-<a href="#"><div></div></a>
-<a href="#"><div></div></a>
-</section>
+<div class="arrows">
+<a href="#">Стрелка вверх</a>
+<a href="#">Стрелка вниз</a>
+</div>
+</block>
 <section class="search-results">
   <h2>Результаты поиска:</h2>
   <ul>
