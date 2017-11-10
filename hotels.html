@@ -19,35 +19,54 @@
                    </nav>
       </header>
       <main class="container">
-      <form class="filter">
+      <form class="filter" action="https://echo.htmlacademy.ru" method="post">
     <div class="options">
-  <h2>Выбор</h2>
   <b>Инфраструктура:</b>
-<ul class="options">
-<li class="options">Бассейн</li>
-<li class="options">Парковка</li>
-<li class="options">Wi-Fi</li>
+<ul>
+<li>
+  <input type="checkbox" name="infro" id="pool" checked>
+  <label for="pool">Бассейн</label>
+</li>
+<li>
+  <input type="checkbox" name="infro" id="parking">
+  <label for="parking">Парковка</label>
+</li>
+<li>
+  <input type="checkbox" name="infro" id="wifi">
+<label for="wifi">Wi-Fi</label>
+</li>
 </ul>
 </div>
 <div class="options">
 <b>Тип жилья:</b>
-<ul class="options">
-<li class="options">Гостиница</li>
-<li class="options">Мотель</li>
-<li class="options">Апартаменты</li>
+<ul>
+<li>
+<input type="checkbox" name="housing" id="hotel" checked>
+  <label for="hotel">Гостиница</label>
+  </li>
+<li>
+<input type="checkbox" name="housing" id="motel" checked>
+  <label for="motel">Мотель</label>
+  </li>
+<li>
+<input type="checkbox" name="housing" id="apartment" checked>
+  <label for="apartment">Апартаменты</label>
+  </li>
 </ul>
 </div>
 <div class="options">
 <b>Стоимость в сутки (Р):</b>
 <div>от 0</div>
   <div>до 3000</div>
+  <div>
 <input type="range" min="0" max="3000">
 <input type="submit" value="Показать">
+</div>
 </div>
 </form>
 <section class="sorting">
   <h2>Найдено: 3</h2>
-<h2>Сортировка:</h2>
+<h3>Сортировка:</h3>
 <ul class="sorting-list">
   <li><a href="#">По цене</a></li>
   <li><a href="#">По типу</a></li>
